@@ -8,11 +8,11 @@ export default function Layout() {
         <>
             <nav>
                 <Link to={"/"}>Home</Link >
-                <span></span>
+                <span> </span>
                 <Link to={"/people"}>People</Link>
-                <span></span>
+                <span> </span>
                 <Link to={"/contact"}>contact</Link>
-                <span></span>
+                <span> </span>
             </nav>
 
             <Outlet/>
