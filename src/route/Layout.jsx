@@ -3,20 +3,17 @@ import React from "react";
 import Footer from "./Footer";
 
 export default function Layout() {
-    return (
+  return (
+    <>
+      <nav>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/people"}>People</Link>
+        <Link to={"/contact"}>Contact</Link>
+        <Link to={"/personProfile"}>Profile</Link>
+      </nav>
 
-        <>
-            <nav>
-                <Link to={"/"}>Home</Link >
-                <span> </span>
-                <Link to={"/people"}>People</Link>
-                <span> </span>
-                <Link to={"/contact"}>contact</Link>
-                <span> </span>
-            </nav>
-
-            <Outlet/>
-            <Footer/>
-        </>
-    );
+      <Outlet />
+      <Footer />
+    </>
+  );
 }
