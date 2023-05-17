@@ -1,3 +1,4 @@
+
 export default function Layout() {
 
     return (
@@ -25,6 +26,8 @@ export default function Layout() {
                 prominently mention modern React-based frameworks. If you haven’t seen
                 the new homepage yet, check it out!
             </p>
+serysthgshystt
+
         </>
     );
 };
